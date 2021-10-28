@@ -47,6 +47,7 @@ function Searchbar(props) {
   return (
     <>
       <div className="main">
+        <h1>Weather App</h1>
         <form>
           <input
             type="text"
