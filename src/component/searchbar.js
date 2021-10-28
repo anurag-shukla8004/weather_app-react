@@ -40,7 +40,7 @@ function Searchbar(props) {
     updateCity(event.target.value);
     const Timeout = setTimeout(() => {
       weatherApi(event.target.value);
-    }, 100);
+    }, 500);
     updatetime(Timeout);
   };
 
