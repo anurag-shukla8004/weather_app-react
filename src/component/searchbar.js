@@ -19,7 +19,7 @@ function Searchbar(props) {
     weatherdescription = "";
     props.temp(temperatur, weatherCity, weatherdescription);
     const req = await axios.get(
-      `http://api.openweathermap.org/data/2.5/weather?q=${cit}&appid=${API_KEY}`
+      `https://api.openweathermap.org/data/2.5/weather?q=${cit}&appid=${API_KEY}`
     );
 
     temperatur = req.data.main;
